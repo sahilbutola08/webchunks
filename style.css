@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Staatliches&display=swap');
+
+
+
+
+.jumbotron {
+	font-family: 'Staatliches', cursive;
+}
+.container {
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+	color: #212121;
+}
+
 .row-content {
 	padding:30px 0;
 	border-bottom: 1px ridge;
+	border-color: #BDBDBD;
 }
+
