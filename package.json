@@ -1,0 +1,14 @@
+{
+  "name": "webchunks",
+  "version": "2.0.0",
+  "description": "Its a website made by Sahil Butola.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sahil Butola",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
