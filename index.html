@@ -9,7 +9,7 @@
 </head>
 <body>
 <!--header-->
-	<header class="jumbotron">
+	<header class="jumbotron" class="header">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8 offset-md-2 text-center">
@@ -20,7 +20,7 @@
 	</header>
 <!--info-->
 	<div class="container">
-		<div class="row">
+		<div class="row row-content">
 			<div class="col" id="about">
 				<h3>About Us</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -28,8 +28,8 @@
 		</div>
 	</div>
 <!--rules-->
-	<div class="container">
-		<div class="row">
+	<div class="container ">
+		<div class="row row-content">
 			<div class="col">
 				<h3>Rules and Regulations</h3>
 				<p>
@@ -43,24 +43,20 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col text-center">
-				<form>
-					<div class="form-group row">
-						<div class="col-sm-8 offset-sm-2">
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="activate">
-								<label for="activate" class="form-check-label">I agree with all the rules.</label>
-							</div>
-						</div>
-					</div>
-				</form>	
-			</div>
-		</div>
-	</div>
+
 <!--start-quiz-->
-	<div class="container">
+
+	<div class="container row-content">
+		<form>
+			<div class="form-group row text-center">
+				<div class="col-sm-8 offset-sm-2">
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" id="activate">
+						<label for="activate" class="form-check-label">I agree with all the rules.</label>
+					</div>
+				</div>					
+			</div>
+		</form>	
 		<div class="row">
 			<div class="col text-center">
 				<button class="btn btn-primary">Start Quiz</button>
