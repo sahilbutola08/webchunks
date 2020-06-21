@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-zoom=1" name="viewport">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<!--header-->
+	<header class="jumbotron" style="background: #303F9F;border-radius: 0px;box-shadow: 0px 3px 5px black; height: 100px;padding: 30px;">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text-center text-white">
+					<h1 style="text-shadow: 2px 2px 5px black;">Webchunks/SCIE</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container" style="padding: 30px;" id="que-template">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<div class="card">
+					<div class="card-header text-white" style="background-color: #3F51B5;">
+						<p id="que" class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>	
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-check row">
+								<div class="col">
+									<div class="form-check">
+										<input type="radio" name="ans" id="a1" class="form-check-input">
+										<label class="form-check-input-label" for="a1">This is for A1</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" name="ans" id="a2" class="form-check-input">
+										<label class="form-check-input-label" for="a2">This is for A2</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" name="ans" id="a3" class="form-check-input">
+										<label class="form-check-input-label" for="a3">This is for A3</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" name="ans" id="a4" class="form-check-input">
+										<label class="form-check-input-label mb-0" for="a4">This is for A4</label>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center">
+		<form>
+			<div class="form-group row">
+				<div class="col-4 offset-4 text-center">
+					<button class="btn btn-secondary btn-block">Next</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
